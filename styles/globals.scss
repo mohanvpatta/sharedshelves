@@ -1,0 +1,43 @@
+:root {
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: inherit;
+  outline: none;
+
+  color: var(--d-c);
+}
+
+body {
+  background-color: var(--1-c);
+}
+
+main {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+}
+
+a {
+  text-decoration: none;
+  color: var(--6-c);
+
+  &:hover {
+    color: var(--d-c);
+  }
+}
+
+:root {
+  --d-c: #d0d0d0;
+  --6-c: #626262;
+  --7-c: #727272;
+  --1-c: #121212;
+}
